@@ -1,4 +1,4 @@
-# My Portfolio
+# Leaderboard
 
 > This is layout of Leaderboard app I'm about to build in this week
 
@@ -7,6 +7,7 @@
 
 - HTML
 - CSS
+- JavaScript
 
 ## Live Demo
 
