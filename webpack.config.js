@@ -40,7 +40,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Webpack Exercise',
+      title: 'Leaderboard',
       filename: 'index.html',
       template: 'src/index.html'
     })
