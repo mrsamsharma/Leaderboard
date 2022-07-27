@@ -1,4 +1,4 @@
-# My Portfolio
+# Leaderboard
 
 > This is layout of Leaderboard app I'm about to build in this week
 
@@ -7,10 +7,11 @@
 
 - HTML
 - CSS
+- JavaScript
 
 ## Live Demo
 
-[Live Demo Link](https://samwfelice.github.io/Leaderboard/)
+[Live Demo Link](https://mrsamsharma.github.io/Leaderboard/)
 
 ## To make a copy
 
@@ -23,7 +24,7 @@ git clone git@github.com:mrsamsharma/Leaderboard.git
 
 👤 **Satyam Sharma**
 
-- GitHub: [@samWfelcie](https://github.com/samWfelice)
+- GitHub: [@samWfelcie](https://github.com/mrsamsharma)
 - Twitter: [@samwfelice](https://twitter.com/samwfelice)
 - LinkedIn: [samfelice](https://www.linkedin.com/in/samfelice)
 
