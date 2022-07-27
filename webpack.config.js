@@ -1,5 +1,5 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -28,7 +28,7 @@ module.exports = {
         test: /\.css$/i,
         use: [
           'style-loader',
-          'css-loader'
+          'css-loader',
         ],
       },
       {
@@ -42,7 +42,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Leaderboard',
       filename: 'index.html',
-      template: 'src/index.html'
-    })
-  ]
-}
+      template: 'src/index.html',
+    }),
+  ],
+};
