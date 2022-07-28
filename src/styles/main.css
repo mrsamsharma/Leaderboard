@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  gap: 50px;
+}
+
+.score-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.scores {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.recent-scores {
+  display: flex;
+  gap: 15px;
+}
+
+.score-item {
+  font-size: 20px;
+}
+
+.score-item:nth-child(odd) {
+  background-color: rgb(214, 214, 214);
+}
+
+ul {
+  width: 30vw;
+  border: 2px solid #000;
+  list-style: none;
+}
+
+.text-input {
+  border: 2px solid #000;
+}
+
+.text-input::placeholder {
+  color: #000;
+}
+
+.btn {
+  align-self: flex-end;
+  padding: 5px 10px;
+  background-color: #fff;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.734);
+}
+
+.btn:active {
+  background-color: #d5d5d5;
+}
