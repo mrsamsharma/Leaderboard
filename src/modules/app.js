@@ -6,6 +6,11 @@ const submitBtn = document.querySelector('.submit-Btn');
 const removeBtn = document.querySelector('.remove-Btn');
 const userName = document.querySelector('.text-input');
 const userScore = document.querySelector('.score-input');
+const emptyList = () => {
+  const scoreItem = document.querySelectorAll('.score-item');
+  scoreItem.forEach((each) => each.remove());
+};
+
 
 submitBtn.addEventListener('click', (e) => {
   e.preventDefault();
@@ -17,6 +22,7 @@ submitBtn.addEventListener('click', (e) => {
 });
 
 removeBtn.addEventListener('click', async () => {
+  emptyList();
   let userScores = [];
   userScores = await get();
   if (userScores.result.length > 0) {
