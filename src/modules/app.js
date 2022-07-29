@@ -17,6 +17,8 @@ submitBtn.addEventListener('click', (e) => {
   const score = userScore.value;
   if (user && score) {
     post({ user, score });
+    userName.value = '';
+    userScore.value = '';
   }
 });
 
