@@ -12,9 +12,14 @@ body {
   align-items: center;
 }
 
+h1 {
+  padding-top: 10px;
+}
+
 .main-container {
   display: flex;
   gap: 50px;
+  margin-top: 2rem;
 }
 
 .score-form-container {
@@ -49,12 +54,15 @@ form {
 }
 
 ul {
+  min-height: 30vh;
   width: 30vw;
   border: 2px solid #000;
   list-style: none;
 }
 
 .text-input {
+  font-size: 18px;
+  padding: 2px 8px;
   border: 2px solid #000;
 }
 
