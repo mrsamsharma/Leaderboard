@@ -1,6 +1,6 @@
-import post from "./post.js";
-import get from "./get.js";
-import addScore from "./addScore.js";
+import post from './post.js';
+import get from './get.js';
+import addScore from './addScore.js';
 
 const submitBtn = document.querySelector('.submit-Btn');
 const removeBtn = document.querySelector('.remove-Btn');

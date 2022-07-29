@@ -1,4 +1,4 @@
-import userScores from "./scores.js";
+import userScores from './scores.js';
 
 const displayScores = () => {
   const listWrapper = document.querySelector('.list-wrapper');
