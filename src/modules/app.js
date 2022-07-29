@@ -11,7 +11,6 @@ const emptyList = () => {
   scoreItem.forEach((each) => each.remove());
 };
 
-
 submitBtn.addEventListener('click', (e) => {
   e.preventDefault();
   const user = userName.value;
